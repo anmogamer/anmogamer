@@ -83,8 +83,7 @@ local function LevelSequence()
 
 
     Player.PlayerGui:WaitForChild("HUD")
-task.wait(3)
-    Player.Backpack.ServerTraits.ChatStart:FireServer(game:GetService("Workspace").FriendlyNPCs["Korin"].Chat.Chat) --crazy stuff here
+task.wait(3) --crazy stuff here
     --didn't see that one coming did you?
     
     task.wait(0.35)
